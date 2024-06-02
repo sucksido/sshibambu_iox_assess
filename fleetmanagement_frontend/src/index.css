@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.pagination .page-item .page-link {
+  color: #28a745; /* Green color for page numbers */
+  border: 1px solid #28a745;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #28a745; /* Green background for active page */
+  border-color: #28a745;
+}
+
+.pagination .page-item .page-link.btn.btn-success {
+  color: #fff; /* White color for previous and next buttons */
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #28a745; /* Green background on hover */
+  border-color: #28a745;
+}
+
+.pagination .page-item:first-child .page-link.btn {
+  margin-right: auto; /* Move previous button to the left */
+}
+
+.pagination .page-item:last-child .page-link.btn {
+  margin-left: auto; /* Move next button to the right */
+}

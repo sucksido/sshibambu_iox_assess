@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eRniC3Vr6mhZRDz/tzB8w756pKgB+Qx0punkIXyNtT4=",
+  "Source": "FleetServicesAPI",
+  "BasePath": "_content/FleetServicesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
